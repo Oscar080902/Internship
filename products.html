@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+
+<style>
+
+body{
+        background-color: aliceblue;
+    }
+
+    #title{
+        text-align: center;
+        background-color: rgba(199, 199, 199, 0.884);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+    marquee{
+        color: rgb(66, 66, 255);
+        font-size: 18px;
+    }
+
+    #mark{
+        text-align: center;
+    } 
+
+    .alert{
+        padding: 1px;
+    }
+
+    .navbar{
+        background-color: rgb(160, 160, 253);
+    }
+
+    li a{
+        color: whitesmoke;
+    }
+
+    li a .home:link{
+      background-color: tomato;
+    }
+
+    .demo {
+  text-align: center;
+  font-size: 40px;
+  background-color: #3287c1 ;
+  color: whitesmoke;
+    }
+
+    #search{
+        margin-bottom: 20px;
+    }
+
+    footer{
+      font-size: 25px;
+      background-color: #3287c1;
+      padding: 60px;
+      padding-bottom: 100px;
+    }
+
+    footer a {
+      padding: 13px 13px;
+      color: whitesmoke;
+    }
+
+    footer address{
+      float: left;
+      padding-left: 10px;
+    }
+
+    
+    
+</style>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="text-primary" id="title">
+            <h1 >BLUEWAVE COMPUTERS</h1></div>
+    </div>
+
+    <div class="container">
+        <marquee>Make learning limitless with latest tech, now with instant discount on UPI/netbanking, no cost EMI & more*. Shop Deals | Call 1800-425-4002 </marquee>
+    </div>
+
+    <div class="container-fluid">
+
+        <nav class="navbar">
+        
+            <div class="navbar-header">
+                <a class="navbar-brand">Bluewave Computers</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="home"><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="login.html" style="margin-left: 870px;"><span class="glyphicon glyphicon-share"></span>  Login</a></li>
+            </ul>
+
+            
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+
+    <div class="row" id="search">
+        <div class="col-sm-3">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+            </span>
+            <input type="text" class="form-control" placeholder="Search for...">
+          </div>
+        </div>        
+      </div>
+    </div>
+
+<div class="alert alert-info">
+    <h4 id="mark" class="bg-color:primary">Shop Now...Offers available</h4>
+</div>
+
+<div class="container">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <div class="carousel-inner">
+  
+        <div class="item active">
+          <img src="images/productslide2.jpg" alt="Slide 1" style="width:1300px; height: 400px;">
+          <div class="carousel-caption">
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="images/productslide.png" alt="Slide 2" style="width:1300px; height: 400px;">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="images/productslide3.jpg" alt="Slide 3" style="width:1300px; height: 400px;">
+          <div class="carousel-caption">            
+          </div>
+        </div>
+    
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <hr>
+
+  <h2 style="text-align: center;">Computers & Accessories for Home</h2>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/hp.jpg" style="width: 200px; height: 200px;">
+  
+        <h3 style="color: #3287c1;"><a href="#">Hp Pavilion Laptop</a></h3>
+        <h2>Online Price : <del> ₹ 79,000</del></h2>
+        <h3><b>₹ 69,989.99</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> Generation Intel® Core™ i5-11320H Processor</p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> Windows 11 Home</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Intel® Iris® Xe Graphics with shared graphics memory</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> 16GB, 2x8GB, DDR4, 3200MHz</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> 512GB M.2 PCIe NVMe Solid State Drive</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Starting at 1.64 kg</p>
+        
+        </div>
+    </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/huawei.jpg" style="width: 200px; height: 200px;">
+        <h3 style="color: #3287c1;"><a href="#">Huawei Laptop</a></h3>
+  
+        <h2>Online Price : <del> ₹ 69,000</del></h2>
+        <h3><b>₹ 65,999.00</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> Generation Intel® Core™ i3-11320H Processor</p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> Windows 11 Home</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Nvidia Geforce GTX 1060 Graphics with shared graphics memory</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> 32GB, 2x8GB, DDR4, 3200MHz</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> 512GB M.2 PCIe NVMe Solid State Drive</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Starting at 1.78 kg</p>
+      </div>
+    </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/acer.jpg" style="width: 200px; height: 200px;">  
+        <h3 style="color: #3287c1;"><a href="#">Acer Laptops</a></h3>  
+        
+        <h2>Online Price : <del> ₹ 82,000</del></h2>
+        <h3><b>₹ 62,989.99</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> 10<sup> th</sup> Generation Intel® Core™ i5-11320H Processor</p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> Windows 11 Professional</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Nvidia Geforce RTX Graphics with integrated graphics memory</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> 16GB (upto 32GB), 2x8GB, DDR4, 3200MHz</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> 512GB M.2 PCIe NVMe Solid State Drive</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Starting at 1.64 kg</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/graphics.jpg" style="width: 200px; height: 200px;">
+  
+        <h3 style="color: #3287c1;"><a href="#">Graphics Card</a></h3>
+        <h2>Online Price : <del> ₹ 70,000</del></h2>
+        <h3><b>₹ 62,989.99</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> OC Mode - GPU Boost Clock : 1710 MHz , GPU Base Clock : 1485 MHz
+            , GPU Base Clock : 1485 MHz</p>
+        <p><span class="glyphicon glyphicon-clock"></span> Memory Clock : 8002 MHz</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Dimension : 7.48 " x 4.33 " x 1.49
+            19 x 11 x 3.8 Centimeter</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> Resolution : Digital Max Resolution:7680x4320</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> 512GB M.2 PCIe NVMe Solid State Drive</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Starting at 1.64 kg</p>
+        
+        </div>
+    </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/cabinet.jpg" style="width: 200px; height: 200px;">
+        <h3 style="color: #3287c1;"><a href="#">CPU Cabinets</a></h3>
+  
+        <h2>Online Price : <del> ₹ 16,000</del></h2>
+        <h3><b>₹ 11,999.00</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> Model : CA-H510B-WA </p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> Dimensions : W: 210mm H: 460mm D: 428mm</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Weight : 6.8kg</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> I/O Ports :1x USB 3.1 Gen 1 Type-A
+            1x Headset audio Jack Front
+            1x USB 3.1 Gen 2 Internal Header
+            1x USB 3.1 Gen 1 Internal Header
+            1x HD Audio Header</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> Warranty : 2 Years</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Starting at 1.78 kg</p>
+      </div>
+    </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/harddisk.jpg" style="width: 200px; height: 200px;">  
+        <h3 style="color: #3287c1;"><a href="#">Harddisks</a></h3>  
+        
+        <h2>Online Price : <del> ₹ 10,000</del></h2>
+        <h3><b>₹ 8,989.99</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> Digital Storage Capacity : 2 TB</p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> Compatible Devices : Laptop, Desktops</p>
+        <p><span class="glyphicon glyphicon-cd"></span> harddisk Interface : USB 3.0</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> 1Special Feature : Password Protection</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> Brand : Multimedia Safely and easily manage 2 TB of photos, videos, movies, and more with hardware encrypted password-protection.</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Hard disk Form Factor : 2.5 Inches</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/motherboard.jpg" style="width: 200px; height: 200px;">
+  
+        <h3 style="color: #3287c1;"><a href="#">Motherboards</a></h3>
+        <h2>Online Price : <del> ₹ 14,000</del></h2>
+        <h3><b>₹ 9,989.99</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> Brand : GIGABYTE</p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> CPU Socket : Scoket AM4</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Compatible Debices : Personal Computers</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> Ram Memory Technology : DDR4</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> Compatible Processors : Ryzen</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Supports AMD Ryzen 5000 series/ 3rd Gen Ryzen/ 2nd Gen Ryzen/ 1st Gen Ryzen</p>
+        
+        </div>
+    </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/monitor.jpg" style="width: 700px; height: 200px;">
+        <h3 style="color: #3287c1;"><a href="#">Monitors</a></h3>
+  
+        <h2>Online Price : <del> ₹ 16,000</del></h2>
+        <h3><b>₹ 14,999.00</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> Brand : LG Monitor</p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> Color : Black & White</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Connectivity Technology : Wired, HDCP</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> Series : Ultrafine</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> Item Weight : 5100 grams</p>
+        <p><span class="glyphicon glyphicon-scale"></span> 27" 4K UHD Resoltion with HDR 10
+            IPS Screen with 178/178 deg viewing angle with 300 nits brightness</p>
+      </div>
+    </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="images/printer.jpg" style="width: 200px; height: 200px;">  
+        <h3 style="color: #3287c1;"><a href="#">Printers</a></h3>  
+        
+        <h2>Online Price : <del> ₹ 22,000</del></h2>
+        <h3><b>₹ 12,989.99</b></h3>
+  
+        <p>Price includes GST. Free delivery.</p>
+  
+        <p><span class="glyphicon glyphicon-oil"></span> Printing Technology : Laser</p>
+        <p><span class="glyphicon glyphicon-modal-window"></span> Special Feature : Network ready</p>
+        <p><span class="glyphicon glyphicon-cd"></span> Brand : HP</p>
+        <p><span class="glyphicon glyphicon-sound-dolby"></span> Connector Type : App, Wi-Fi, USB, Network, Ethernet also can be connected with Mobile Phones and Tables</p>
+        <p><span class="glyphicon glyphicon-hdd"></span> Recomended Uses For Products : Office, Home</p>
+        <p><span class="glyphicon glyphicon-scale"></span> Printer Output : Color</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <footer>
+    
+      <div class="container" style="text-align: center;">
+      <a href="#"><i class=" fa fa-facebook"></i></a>
+      <a href="#"><i class=" fa fa-twitter"></i></a>
+      <a href="#"><i class=" fa fa-linkedin"></i></a>
+      <a href="#"><i class=" fa fa-whatsapp"></i></a>
+      <a href="#"><i class=" fa fa-instagram"></i></a>
+    </div>
+    
+      <address style="float: left; font-size: 18px; color: whitesmoke; margin-top: 10px;">
+        <i>
+        Sathy - Bhavani State Highway Alathukombai Post,<br> Sathyamangalam, Tamil Nadu - 638401</i>
+      </address>   
+    </footer>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+
+<style>
+
+body{
+        background-color: aliceblue;
+    }
+
+    #title{
+        text-align: center;
+        background-color: rgba(199, 199, 199, 0.884);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+    marquee{
+        color: rgb(66, 66, 255);
+        font-size: 18px;
+    }
+
+    #mark{
+        text-align: center;
+    } 
+
+    .alert{
+        padding: 1px;
+    }
+
+    .navbar{
+        background-color: rgb(160, 160, 253);
+    }
+
+    li a{
+        color: whitesmoke;
+    }
+
+    footer{
+      font-size: 25px;
+      background-color: #3287c1;
+      padding: 60px;
+      padding-bottom: 100px;
+    }
+
+    footer a {
+      padding: 13px 13px;
+      color: whitesmoke;
+    }
+
+    footer address{
+      float: left;
+      padding-left: 10px;
+    }
+
+
+</style>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="text-primary" id="title">
+            <h1 >BLUEWAVE COMPUTERS</h1></div>
+    </div>
+
+    <div class="container">
+        <marquee>Make learning limitless with latest tech, now with instant discount on UPI/netbanking, no cost EMI & more*. Shop Deals | Call 1800-425-4002 </marquee>
+    </div>
+
+    <div class="container-fluid">
+
+        <nav class="navbar">
+        
+            <div class="navbar-header">
+                <a class="navbar-brand">Bluewave Computers</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="home"><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="login.html" style="margin-left: 870px;"><span class="glyphicon glyphicon-share"></span>  Login</a></li>
+            </ul>            
+        </nav>
+    </div>
+
+    <div class="container">
+
+    
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+
+            <fieldset style="background-color: white; padding-bottom: 355px;">
+                <h1 style="margin-left: 30px;">Sign In</h1>
+                <input type="checkbox" style="margin-left: 30px;">  Email me a one-time password.<br><br>
+                <label for="email" id="email" style="margin-left: 30px;">Email Address<sup style="color: red; font-size: 14px; "> *</sup></label><br>
+                <input type="email" id="mail" style="width: 250px; height: 30px; margin-left: 30px;"><br>
+                <br>
+        
+                <label for="password" style="margin-left: 30px;">Password <sup style="color: red; font-size: 14px; "> *</sup></label><br>
+                <input type="password" id="pass" style="width: 250px; height: 30px; margin-left: 30px;"><br>
+        
+                <a href="#"><h5 style="margin-left: 30px;">Forgot password?</a><br>
+        
+                <a href="#" class="btn btn-primary btn-md" style="margin-top: 20px;" onclick="validate()">Sign In</a> 
+
+                <h2 style="margin-left: 30px;">Sign in with:</h2>
+
+                <a href="#" style="font-size: 32px; margin-left: 30px;"><i class="fa fa-google"></i></a>
+                <a href="#" style="font-size: 32px; margin-left: 30px;"><i class="fa fa-facebook"></i></a>
+                <a href="#" style="font-size: 32px; margin-left: 30px;"><i class="fa fa-twitter"></i></a>               
+
+                
+        
+            </fieldset>
+          
+          </div>
+        
+
+
+        <div class="col-lg-6">
+            <fieldset style="background-color: rgba(128, 128, 128, 0.219); padding-bottom: 30px;">
+                <h1 style="margin-left: 30px;">Create an Account</h1>
+                <label for="fname" id="ame" style="margin-left: 30px;">First Name<sup style="color: red; font-size: 14px; "> *</sup></label><br>
+                <input type="text" id="fname" style="width: 250px; height: 30px; margin-left: 30px;"><br>
+                <br>
+
+                <label for="lname" id="lme" style="margin-left: 30px;">Last Name<sup style="color: red; font-size: 14px; "> *</sup></label><br>
+                <input type="text" id="lname" style="width: 250px; height: 30px; margin-left: 30px;"><br>
+                <br>
+
+                <label for="email" id="email" style="margin-left: 30px;">Email Address<sup style="color: red; font-size: 14px; "> *</sup></label><br>
+                <input type="email" id="mail1" style="width: 250px; height: 30px; margin-left: 30px;"><br>
+                <br>
+        
+                <label for="password" style= "margin-left: 30px;">Enter Password <sup style="color: red; font-size: 14px; "> *</sup></label><br>
+                <input type="password" id="pass1" style="width: 250px; height: 30px; margin-left: 30px;"><br><br>
+
+
+                <p style="margin-left: 30px; margin-right: 20px;">Passwords must be between 8 and 20 characters in length and contain 1 upper case letter, 1 lower case letter, and 1 number.</p><br>
+
+                <p style="margin-left: 30px; margin-right: 20px;">We’d love to stay in touch to hear about your needs and to keep you updated on our products, services, solutions, exclusive offers and special events. Simply check below to stay in touch by email.</p><br>
+
+                <input type="checkbox" style="margin-left: 30px; margin-right: 20px;"><p style="margin-left: 30px;">  Please email me with offers and announcements from Dell, its group of companies, subsidiaries and authorized partners.</p>
+
+                <p style="margin-left: 30px;margin-right: 20px; ">By clicking Create Account, I have read and accepted Company's TERMS OF USE and Privacy Statement.</p>
+
+                <p style="margin-left: 30px; margin-right: 20px;">An email will be sent to confirm the email address. Click the link attached in the email to finish the verification.</p>
+        
+                <a href="#" class="btn btn-primary btn-md" style="margin-top: 20px; margin-left: 30px;" onclick="create()">Create Account</a>
+                
+        
+            </fieldset>
+        </div>
+
+    </div>
+</div>
+
+<hr>
+
+    <div class="container-fluid">
+        <footer>
+        
+          <div class="container" style="text-align: center;">
+          <a href="#"><i class=" fa fa-facebook"></i></a>
+          <a href="#"><i class=" fa fa-twitter"></i></a>
+          <a href="#"><i class=" fa fa-linkedin"></i></a>
+          <a href="#"><i class=" fa fa-whatsapp"></i></a>
+          <a href="#"><i class=" fa fa-instagram"></i></a>
+        </div>
+        
+          <address style="float: left; font-size: 18px; color: whitesmoke; margin-top: 10px;">
+            <i>
+            Sathy - Bhavani State Highway Alathukombai Post,<br> Sathyamangalam, Tamil Nadu - 638401</i>
+          </address>   
+        </footer>
+        </div>
+
+<script>
+
+    function validate(){
+
+        var mail = document.getElementById("mail").value;
+        let pass = document.getElementById("pass").value;
+
+        if(mail==null||mail==""){
+            alert("Enter Email id");
+            return false;
+        }
+
+        else if(pass==null||pass==""){
+            alert("Enter password");
+            return false;
+        }
+
+    }
+
+    function create(){
+        
+        var fname = document.getElementById("fname").value;
+        let lname = document.getElementById("lname").value;
+        let mail1 = document.getElementById("mail1").value;
+        let pass1 = document.getElementById("pass1").value;
+
+        if(fname==null||fname=="")
+        {
+            alert("Enter Firstname");
+            return false;
+        }
+
+        else if(lname==null||lname=="")
+        {
+            alert("Enter last name");
+            return false;
+        }
+
+        else if(mail1==null||mail1=="")
+        {
+            alert("Enter E-mail Id");
+            return false;
+        }
+
+        else if(pass1==null||pass1=="")
+        {
+            alert("Enter Password");
+            return false;
+        }
+
+        else if(pass1.length < 6)
+        {
+            alert("Password must be atleast 6 charcters");
+            return false;
+        }
+    }
+</script>
+</body>
+</html>
